@@ -1,0 +1,105 @@
+@font-face {
+    font-family: lane;
+    src: url(lane.ttf);
+}
+
+@font-face {
+    font-family: neoteric;
+    src: url(neoteric.ttf);
+}
+
+.loginbox{
+    margin-top: 30vh;
+}
+
+.logininput{
+    width: 300px;
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+.fullsizegrid {
+    height: 100%;    
+}
+
+.maincolumn{
+    background-color: gray;
+}
+
+#sidebara{
+    font-size: 13px;
+    background-color: #323438; 
+    width: 230px;
+}
+
+.profilepicture{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: white 3px solid;
+    border-radius: 100px;
+}
+
+#profilename{
+    letter-spacing: 0.1em;
+    background-color: #366FD4;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+#profiledetail{
+    margin-top: 5px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+#title{
+    font-size: 10px;
+    color: #86BDD8;
+}
+
+#content{
+    font-size: 15px;
+}
+
+.items{
+    margin-top: 40px;
+}
+
+#sidebaritem{
+    background-color: #383A3E;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+
+#sidebaritem:hover{
+     background-color: white;
+     color: black;
+}
+
+#sidebaritemedit{
+    background-color: #383A3E;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+
+#sidebaritemedit:hover{
+     background-color: white;
+     color: black;
+}
+
+#center{
+    text-align:center;
+}
+
+#trymenu{
+    height: 20px;
+}
